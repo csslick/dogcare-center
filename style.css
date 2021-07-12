@@ -1,0 +1,66 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 1200px;
+  height: 90px;
+  background: #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+header > h1 {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  font-size: 20px;
+}
+
+header > nav {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+/* 1단계 메뉴 */
+header > nav > ul > li {
+  float: left;
+  /* outline: 1px solid red; */
+  width: 8em;
+  text-align: center;
+}
+
+header > nav > ul > li > a {
+  color: #444;
+}
+header > nav > ul > li > a:hover {
+  color: green;
+}
+
+/* 2단계 메뉴 */
+header > nav .depth2 {
+  /* outline: 1px solid green; */
+  margin-top: 34px;
+  display: none;
+}
+
+header > nav .depth2 > li > a {
+  display: block;
+  padding: 5px;
+}
+header > nav .depth2 > li > a:hover {
+  background: #444;
+  color: #fff;
+}
