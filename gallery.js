@@ -4,11 +4,16 @@ $(function(){
   $('.gallery img').hide().eq(0).show();
 
   var imgNum = 0; // 이미지 번호
-  var pauseTime = 4000; // 정지 시간
+  var pauseTime = 5000; // 정지 시간
 
   // 이미지 변경 함수 changeGallery(이미지 번호)
   function changeGallery(imgNum) {
-    $('.gallery img').stop().fadeOut().eq(imgNum).fadeIn();
+    // 해당 번호의 이미지 출력
+    $('.gallery img')
+      .stop()
+      .fadeOut()
+      .eq(imgNum)
+      .fadeIn();
 
     /* 인디케이터 버튼 스타일 */
     $('.indicator li').removeClass('active');
@@ -17,7 +22,8 @@ $(function(){
 
   // 추가 기능: 자동재생 기능
   setInterval(function(){
-    imgNum = imgNum + 1;
+    imgNum = imgNum + 1; // 다음 이미지 번호
+    // 마지막 이미지면 처음 이미지로
     if(imgNum > 2) { imgNum = 0;}
     changeGallery(imgNum); 
   }, pauseTime);

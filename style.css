@@ -48,6 +48,7 @@ header > nav > ul > li {
   width: 8em;
   text-align: center;
   background: #fff;
+  font-weight: bold;
 }
 
 header > nav > ul > li a {
