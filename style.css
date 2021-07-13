@@ -14,17 +14,24 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
 header {
   width: 1200px;
   height: 90px;
-  background: #ccc;
+  /* background: #ccc; */
   margin: 0 auto;
   position: relative;
+  z-index: 999;
 }
 header > h1 {
   position: absolute;
   left: 20px;
-  top: 30px;
+  top: 20px;
   font-size: 20px;
 }
 
@@ -40,9 +47,10 @@ header > nav > ul > li {
   /* outline: 1px solid red; */
   width: 8em;
   text-align: center;
+  background: #fff;
 }
 
-header > nav > ul > li > a {
+header > nav > ul > li a {
   color: #444;
 }
 header > nav > ul > li > a:hover {
@@ -58,9 +66,47 @@ header > nav .depth2 {
 
 header > nav .depth2 > li > a {
   display: block;
-  padding: 5px;
+  padding: 10px;
 }
 header > nav .depth2 > li > a:hover {
   background: #444;
   color: #fff;
 }
+
+
+/* 메인 비주얼 */
+#mainVisual .container {
+  position: relative;
+  height: 468px;
+}
+
+.gallery{
+  width: 1200px;
+  height: 468px;
+  /* outline: 2px solid red; */
+  position: relative;
+}
+
+.gallery > img {
+  position: absolute;
+  width: 100%;
+}
+
+/* 인디케이터(tab) */
+.indicator {
+  background: #ff0;
+  display: flex;
+}
+
+/* 기본 상태(비선택) */
+.indicator > li {
+  flex: 1;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 20px;
+  background: #27353d;
+} 
+.indicator > li > a {
+  color: #fff;
+}
+
