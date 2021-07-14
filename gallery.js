@@ -30,7 +30,9 @@ $(function(){
 
   // 인디케이터 버튼1 -> 첫번째 배너
   $('.indicator li').eq(0).click(function(){
+    // 이미지 변경
     changeGallery(0);
+    // 인디케이터 변경
     $('.indicator li').removeClass('active');
     $(this).addClass('active');
   })

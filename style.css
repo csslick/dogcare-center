@@ -78,7 +78,14 @@ header > nav .depth2 > li > a:hover {
 /* 메인 비주얼 */
 #mainVisual .container {
   position: relative;
-  height: 468px;
+  width: 1200px;
+  height: 469px;
+  /*  
+    배너 디자인
+    1.포토샵: 이미지 크기 1200 x 469
+    2.타이틀 텍스트 추가(텍스트 가독성 중요)
+    3.main_visual01_1200.jpg 로 저장(원본 유지)
+  */
 }
 
 .gallery{
