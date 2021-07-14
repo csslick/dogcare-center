@@ -73,3 +73,6 @@
 }
 
 /* 본문 article */
+#sub1_1 > #main article .breadCrumb{
+  background: #ccc;
+}
