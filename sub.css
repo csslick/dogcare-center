@@ -3,3 +3,58 @@
   aside 250px
   content 860px
 */
+#sub1_1 h2 {
+  font-size: 24px;
+}
+#sub1_1 h3 {
+  font-size: 30px;
+}
+#sub1_1 h4 {
+  font-size: 26px;
+}
+
+
+#sub1_1 > #main {
+  
+}
+#sub1_1 > #main .container{
+  outline: 1px solid red;
+
+}
+#sub1_1 > #main aside {
+  width: 250px;
+  outline: 1px solid red;
+  margin-right: auto;
+}
+
+#sub1_1 > #main article {
+  width: 860px;
+  outline: 1px solid red;
+}
+
+
+/* 사이드바 영역 */
+#sub1_1 > #main aside h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sub1_1 > #main aside .subMenu > li {
+  background: #d7d7d7;
+}
+#sub1_1 > #main aside .subMenu > li:hover > a {
+  background: #939a9e; 
+  color: #fff;
+}
+#sub1_1 > #main aside .subMenu > li > a {
+  /* color: #fff; */
+  color: #898989;
+  /* background: #939a9e; */
+  background: #fff;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 1em;
+  font-size: 18px;
+  font-weight: bold;
+}

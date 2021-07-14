@@ -2,7 +2,7 @@
 
 $(function(){
 
-  $('header > nav > ul > li').hover(
+  $('header nav > ul > li').hover(
     function(){
       $(this)
         .find('.depth2')
