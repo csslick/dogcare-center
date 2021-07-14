@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "맑은 고딕", sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
@@ -14,10 +18,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 header {
@@ -129,3 +137,66 @@ header > nav .depth2 > li > a:hover {
   padding: 1rem 0;
 }
 
+
+/* 메인 콘텐츠 영역 */
+#main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#main .container {
+  display: flex;
+}
+
+#main .col {
+  width: 380px;
+  /* outline: 1px solid red; */
+  /* float: left; */
+  margin-right: 30px;
+  background: #ededed;
+}
+
+#main .col:last-child {
+  margin: 0;
+}
+
+#main .col .text {
+  padding: 1em;
+}
+
+#main .col .text h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#main .col .text p{
+  margin-bottom: 1em;
+  letter-spacing: -0.3px;
+}
+
+/* 버튼 */
+.btn {
+  display: block;
+  background: #999;
+  text-align: center;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* 버튼 색상 스타일 추가 
+  1.#649550
+  2.#509591
+  3.#507595
+*/
+.btn-green {
+  background: #649550;
+}
+
+.btn-cyon {
+  background: #509591;
+}
+
+.btn-blue {
+  background: #507595;
+}

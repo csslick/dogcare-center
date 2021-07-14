@@ -35,18 +35,21 @@ $(function(){
     // 인디케이터 변경
     $('.indicator li').removeClass('active');
     $(this).addClass('active');
+    return false; // a요소의 기본 이벤트 제거
   })
   // 인디케이터 버튼2 -> 두번째 배너
   $('.indicator li').eq(1).click(function(){
     changeGallery(1);
     $('.indicator li').removeClass('active');
     $(this).addClass('active');
+    return false;
   })
   // 인디케이터 버튼3 -> 두번째 배너
   $('.indicator li').eq(2).click(function(){
     changeGallery(2);
     $('.indicator li').removeClass('active');
-    $(this).addClass('active');    
+    $(this).addClass('active');   
+    return false; 
   })
      
 
