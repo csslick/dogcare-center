@@ -36,16 +36,28 @@
 /* 사이드바 영역 */
 #sub1_1 > #main aside h2 {
   text-align: center;
-  margin-bottom: 30px;
+  background: #017143;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #fff;
 }
 
 #sub1_1 > #main aside .subMenu > li {
   background: #d7d7d7;
 }
+#sub1_1 > #main aside .subMenu > li > a {
+  transition: 0.4s;
+}
 #sub1_1 > #main aside .subMenu > li:hover > a {
   background: #939a9e; 
   color: #fff;
 }
+#sub1_1 > #main aside .subMenu > li.active > a {
+  background: #939a9e; 
+  color: #fff;  
+  border-bottom: 1px solid #fff;
+}
+
 #sub1_1 > #main aside .subMenu > li > a {
   /* color: #fff; */
   color: #898989;
@@ -57,4 +69,7 @@
   padding-left: 1em;
   font-size: 18px;
   font-weight: bold;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
 }
+
+/* 본문 article */
