@@ -11,9 +11,9 @@ $(function(){
     // 해당 번호의 이미지 출력
     $('.gallery img')
       .stop()
-      .fadeOut()
+      .fadeOut(300)
       .eq(imgNum)
-      .fadeIn();
+      .fadeIn(300);
 
     /* 인디케이터 버튼 스타일 */
     $('.indicator li').removeClass('active');
