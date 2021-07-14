@@ -8,6 +8,8 @@
 
 body {
   font-family: "맑은 고딕", sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
 ul {
@@ -199,4 +201,35 @@ header > nav .depth2 > li > a:hover {
 
 .btn-blue {
   background: #507595;
+}
+
+footer {
+  font-size: 14px;
+  font-size: 0.87em;
+  background: #444;
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footerMenu > li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footerMenu > li > a{
+  color: #fff;
+}
+
+footer .footerMenu span,  
+footer .address span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+  display: inline-block;
+  transform: translateY(-2px); 
+}
+
+footer .address {
+  margin-bottom: 5px;
 }
