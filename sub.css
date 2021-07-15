@@ -93,7 +93,9 @@ article .textLayout {
   /* background: #ccc; */
   margin-top: 42px;
 }
-
+article .textLayout .text {
+  margin-right: auto;
+}
 .accent {
   color: var(--sub-color1);
 }
@@ -106,9 +108,16 @@ article p {
   margin-bottom: 30px;
   line-height: 28px;
 }
+article p:last-child {
+  margin-bottom: 0;
+}
 
 article p strong {
   font-size: large;
   /* font-weight: normal; */
   line-height: 1.5em;
+}
+
+article .bottomTextLayout {
+  padding: 40px 30px;
 }
