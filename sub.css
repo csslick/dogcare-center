@@ -24,18 +24,18 @@
   
 }
 #sub1_1 > #main .container{
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 
 }
 #sub1_1 > #main aside {
   width: 250px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-right: auto;
 }
 
 #sub1_1 > #main article {
   width: 900px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 
@@ -86,38 +86,54 @@
   margin-bottom: 1rem;
 }
 
-article .textLayout {
+#sub1_1 article .textLayout {
   display: flex;
   padding: 40px 30px;
   background: #f9f9f9;
   /* background: #ccc; */
   margin-top: 42px;
 }
-article .textLayout .text {
+#sub1_1 article .textLayout .text {
   margin-right: auto;
 }
+
 .accent {
   color: var(--sub-color1);
 }
+.accent2 {
+  color: var(--sub-color2);
+}
 
-article h4 {
+#sub1_1 article h4 {
   margin-bottom: 20px;
   line-height: 1.5em;
 }
-article p {
+#sub1_1 article p {
   margin-bottom: 30px;
   line-height: 28px;
 }
-article p:last-child {
+#sub1_1 article p:last-child {
   margin-bottom: 0;
 }
 
-article p strong {
+#sub1_1 article p strong {
   font-size: large;
   /* font-weight: normal; */
   line-height: 1.5em;
 }
 
-article .bottomTextLayout {
+#sub1_1 article .bottomTextLayout {
   padding: 40px 30px;
+  margin-top: 30px;
+}
+
+#sub1_1 article .bottomTextLayout h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#sub1_1 article .bottomTextLayout ol {
+  list-style-position: inside;
+  margin-bottom: 1em;
+  line-height: 28px;
 }
