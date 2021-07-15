@@ -3,6 +3,12 @@
   aside 250px
   content 860px
 */
+:root {
+  --main-color: #046eb8;
+  --sub-color1: #509591;
+  --sub-color2: #649550;
+}
+
 #sub1_1 h2 {
   font-size: 24px;
 }
@@ -36,9 +42,9 @@
 /* 사이드바 영역 */
 #sub1_1 > #main aside h2 {
   text-align: center;
-  background: #017143;
+  background: var(--sub-color1);
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   color: #fff;
 }
 
@@ -74,5 +80,35 @@
 
 /* 본문 article */
 #sub1_1 > #main article .breadCrumb{
-  background: #ccc;
+  /* background: #ccc; */
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+article .textLayout {
+  display: flex;
+  padding: 40px 30px;
+  background: #f9f9f9;
+  /* background: #ccc; */
+  margin-top: 42px;
+}
+
+.accent {
+  color: var(--sub-color1);
+}
+
+article h4 {
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+article p {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+article p strong {
+  font-size: large;
+  /* font-weight: normal; */
+  line-height: 1.5em;
 }
