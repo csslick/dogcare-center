@@ -79,7 +79,7 @@ h4 {
   /* background: #ccc; */
   text-align: right;
   font-size: 12px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #sub1_1 article .textLayout {
@@ -134,4 +134,25 @@ h4 {
   list-style-position: inside;
   margin-bottom: 1em;
   line-height: 28px;
+}
+
+
+/*** 오시늘 길(sub5_1) ***/
+#sub5_1 article .location {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#sub5_1 article .location ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sub5_1 article .location ul li {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.fa {
+  color: var(--main-color);
 }
