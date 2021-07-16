@@ -74,7 +74,7 @@ header nav > ul > li > a:hover {
 /* 2단계 메뉴 */
 header nav .depth2 {
   /* outline: 1px solid green; */
-  margin-top: 34px;
+  margin-top: 36px;
   display: none;
 }
 
