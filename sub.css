@@ -9,38 +9,34 @@
   --sub-color2: #649550;
 }
 
-#sub1_1 h2 {
+h2 {
   font-size: 24px;
 }
-#sub1_1 h3 {
+h3 {
   font-size: 30px;
 }
-#sub1_1 h4 {
+h4 {
   font-size: 26px;
 }
 
-
-#sub1_1 > #main {
-  
-}
 #sub1_1 > #main .container{
   /* outline: 1px solid red; */
 
 }
-#sub1_1 > #main aside {
+
+#main aside {
   width: 250px;
   /* outline: 1px solid red; */
   margin-right: auto;
 }
 
-#sub1_1 > #main article {
+#main article {
   width: 900px;
   /* outline: 1px solid red; */
 }
 
-
 /* 사이드바 영역 */
-#sub1_1 > #main aside h2 {
+#main aside h2 {
   text-align: center;
   background: var(--sub-color1);
   padding-top: 40px;
@@ -48,23 +44,23 @@
   color: #fff;
 }
 
-#sub1_1 > #main aside .subMenu > li {
+#main aside .subMenu > li {
   background: #d7d7d7;
 }
-#sub1_1 > #main aside .subMenu > li > a {
+#main aside .subMenu > li > a {
   transition: 0.4s;
 }
-#sub1_1 > #main aside .subMenu > li:hover > a {
+#main aside .subMenu > li:hover > a {
   background: #939a9e; 
   color: #fff;
 }
-#sub1_1 > #main aside .subMenu > li.active > a {
+#main aside .subMenu > li.active > a {
   background: #939a9e; 
   color: #fff;  
   border-bottom: 1px solid #fff;
 }
 
-#sub1_1 > #main aside .subMenu > li > a {
+#main aside .subMenu > li > a {
   /* color: #fff; */
   color: #898989;
   /* background: #939a9e; */
@@ -79,7 +75,7 @@
 }
 
 /* 본문 article */
-#sub1_1 > #main article .breadCrumb{
+#main article .breadCrumb{
   /* background: #ccc; */
   text-align: right;
   font-size: 12px;
@@ -108,10 +104,12 @@
   margin-bottom: 20px;
   line-height: 1.5em;
 }
+
 #sub1_1 article p {
   margin-bottom: 30px;
   line-height: 28px;
 }
+
 #sub1_1 article p:last-child {
   margin-bottom: 0;
 }
